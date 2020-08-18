@@ -1,0 +1,215 @@
+@font-face {
+  src: url(fonts/Buckwheat\ TC\ Sans\ Painted.otf);
+  font-family: sketch;
+}
+
+@font-face {
+  src: url(fonts/OldLondon.ttf);
+  font-family: cd;
+}
+
+body {
+  background-image: linear-gradient(
+    90deg, #355070 50%,
+    #eaac8b 20%
+    );
+}
+
+.asterisque{
+  font-family: sketch;
+  color: whitesmoke;
+  font-size: 0.8rem;
+}
+
+#compteur {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.homme1 {
+  height: 400px;
+  width: auto;
+  justify-content: right;
+}
+
+.homme2 {
+  height: 400px;
+  width: auto;
+}
+
+.ancien_prix {
+  background-color: #355070;
+  font-size: 30px;
+  font-family: sketch;
+  color: whitesmoke;
+  display: inline;
+  padding: 7%;
+}
+.ancien_prix:hover {
+
+color: #eaac8b;
+}
+
+
+.nouveau_prix {
+  background-color: #355070;
+  font-size: 30px;
+  font-family: sketch;
+  color: white;
+  display: inline-block;
+  padding: 4%;
+}
+.nouveau_prix:hover{
+  color:#eaac8b;
+}
+
+
+.prix{
+justify-content: center;
+}
+
+.motivation {
+  color: whitesmoke;
+  font-family: sketch;
+  font-size: 3.5rem;
+}
+
+.apprentissage {
+  font-family: sketch;
+  color: whitesmoke;
+  font-size: 3.5rem;
+}
+
+.avenir {
+  font-family: sketch;
+  color: whitesmoke;
+  font-size: 3.5rem;
+}
+
+.mot {
+  font-size: 0.9rem;
+  color: whitesmoke;
+  font-family: sketch;
+}
+
+.point{
+  text-align: center;
+  font-family: sketch;
+  font-size: 10rem;
+  color: whitesmoke;
+  animation: point 0.5s linear;
+}
+
+@keyframes point{
+  from {transform: translateY(-100px);} 
+  to {transform: translateY(0);}
+}
+
+
+
+.photo {
+  height: 600px;
+}
+
+.photo_bloc {
+  text-align: center;
+}
+
+.pourquoi{
+  font-family: sketch;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+
+#titre_principal {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: sketch;
+  font-size: 12vw;
+  color: whitesmoke;
+}
+
+.titre_secondaire {
+  text-align: start;
+  font-family: sketch;
+  margin-left: 100px;
+  font-size: 70px;
+}
+
+.time {
+  font-family: compteur;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.temps_restant {
+  text-align: center;
+  font-family: sketch;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+.test {
+  text-align: center;
+  font-family: compteur;
+}
+
+.texte_lorem{
+  font-family: sketch;
+  color: whitesmoke;
+}
+
+.carte{
+  height: 15rem;
+  width: auto;
+}
+
+.card{
+  background-color: #355070;
+}
+.couleur {
+  background: gray;
+  justify-content: center;
+}
+
+.nom{
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+
+
+.stars{
+  margin-left: 0.05rem;
+  margin-bottom: 0.2rem;
+}
+.fas{
+  color: darkgoldenrod;
+}
+#days,
+#hours,
+#minutes,
+#secondes {
+  font-size: 40px;
+  font-family: sketch;
+  color: whitesmoke;
+}
+
+
+
+span {
+  border-right: .1em solid;
+  animation: caret 1s steps(1) infinite;
+  font-size: 7.5vw;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
