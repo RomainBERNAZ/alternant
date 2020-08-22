@@ -71,12 +71,3 @@ var x = setInterval(function () {
 
 
 // Affichage des textes avec le scroll 
-
-window.addEventListener('scroll', () => {
-
-  const scrolled = window.scrollY;
-  console/console.log(scrolled);
-  const text = document.getElementById("texte");
-
-
-})

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 
     <title>L'Alternant</title>
@@ -22,16 +24,38 @@
     <br><br>
     <div class="row">
 
-        <div class="col-6 photo_bloc">
-            <img class="photo" src="images/men-1276384_1280.jpg" alt="">
+        <div class="col-md-6  photo_bloc">
+            <img class="photo" src="images/principale.png" alt="">
         </div>
-        <div class="col-6">
-            <div class="test"><br>
+        <div class="col-12 col-md-6 colonne_droite">
+            <div class="test">
 
                 <h3 class="temps_restant">TARIF</h3><br>
                 <div class="row prix">
-                    <button class="btn ancien_prix" onclick="changement()">Ancien Prix</button> &nbsp; &nbsp;&nbsp;
-                    <button class="btn nouveau_prix" onclick="changement()">Nouveau Prix</button>
+
+                    <div class="flip-card col-5">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2>ANCIEN <br>PRIX</h2>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="vertical2">9999€</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card col-5">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2>NOUVEAU PRIX</h2>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="vertical">Un contrat de professionnalisation</p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
                 <script src="script.js"></script>
             </div>
@@ -39,6 +63,7 @@
             <h3 class="temps_restant">Temps restant avant <br> la fin de l'offre</h3>
 
             <br>
+
 
             <div class="row justify-content-center">
 
@@ -65,8 +90,10 @@
                     </div>
                 </div>
             </div>
-
-
+            <br><br>
+            <div class="row prix">
+                <h4 class="exemplaire">Un seul exemplaire <br>restant !!</h4>
+            </div>
             <script src="script.js"></script>
         </div>
     </div>
@@ -79,29 +106,28 @@
     <br><br><br><br>
 
     <div class="row qualite">
-        <div class="col-6">
+        <div class="col-md-6 ">
 
 
             <h3 class="motivation">
                 Motivation
             </h3>
 
-            <p id="texte" class="texte_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis atque quia ducimus voluptatem commodi tempora
-                doloribus optio distinctio dignissimos amet?
+            <p data-aos="fade-right" id="texte1" class="texte_lorem">Livré avec de nombreuses options, l'alternant
+                travaillera pour vous dans toutes les conditions.
                 <br><br>
-                doloribus optio distinctio dignissimos amet?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                D'un naturel curieux, il saura se tenir informé des avancées du métier que vous aurez paramétré
+                lors de sa réception.
                 <br><br>
-                Debitis atque quia ducimus voluptatem commodi tempora
-                doloribus optio distinctio dignissimos amet?
+                Malgré sa formation initiale dans l'immobilier, l'alternant semble mieux fonctionner dans le domaine
+                du développement informatique.
 
             </p>
         </div>
 
         <div class="col-6 photo_bloc">
 
-            <img class="homme1" src="images/homme1.jpg" alt="">
+            <img data-aos="fade-right" id="texte2" class="homme1" src="images/ordinateur.png" alt="">
 
         </div>
     </div>
@@ -110,31 +136,39 @@
 
     <div class="row qualite">
 
-        <div class="col-6 photo_bloc">
+        <div class="col-md-6 d-none photo_bloc">
 
-            <img class="homme2" src="images/homme2.jpg" alt="">
+            <img data-aos="fade-left" id="texte1" class="homme2" src="images/homme2.jpg" alt="">
 
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
 
 
             <h3 class="apprentissage">
                 Apprentissage
             </h3>
 
-            <p class="texte_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis atque quia ducimus voluptatem commodi tempora
-                doloribus optio distinctio dignissimos amet?
+            <p data-aos="fade-left" id="texte2" class="texte_lorem">L'alternant est paramétré pour développer des
+                applications web
+                et web mobile, grace à sa formation bac+2 au sein de l'ENI école informatique.
                 <br><br>
-                doloribus optio distinctio dignissimos amet?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Il maitrise plusieurs langages de programmation et possède bien évidemment
+                assez de stockage interne pour en assimiler d'autres.
                 <br><br>
-                Debitis atque quia ducimus voluptatem commodi tempora
-                doloribus optio distinctio dignissimos amet?
+                Pour l'instant l'alternant est livré avec les options suivantes :
+                <br>- JAVA (+Framework STRUTS2)
+                <br>- HTML / CSS
+                <br>- JavaScript etc.
+                <br>Une liste plus exhaustive est disponible dans la brochure offerte ci-dessous.
+
 
             </p>
         </div>
+        <div class="col-md-6 photo_bloc">
 
+            <img data-aos="fade-left" id="texte1" class="homme2" src="images/livre.png" alt="">
+
+        </div>
 
 
 
@@ -142,19 +176,19 @@
     <br><br><br>
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
 
 
             <h3 class="avenir">
                 Avenir
             </h3>
 
-            <p class="texte_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis atque quia ducimus voluptatem commodi tempora
-                doloribus optio distinctio dignissimos amet?
+            <p data-aos="fade-right" id="texte1" class="texte_lorem">L'alternant est livré pour une durée minimale d'un
+                an.
+                Pendant cette période il devra s'absenter quelques jours afin de mettre à
+                jour ses connaissances.
                 <br><br>
-                doloribus optio distinctio dignissimos amet?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
                 <br><br>
                 Debitis atque quia ducimus voluptatem commodi tempora
                 doloribus optio distinctio dignissimos amet?
@@ -162,46 +196,131 @@
             </p>
         </div>
 
-        <div class="col-6 photo_bloc">
+        <div class="col-md-6 photo_bloc">
 
-            <img class="homme1" src="images/homme3.jpg" alt="">
+            <img data-aos="fade-right" id="texte2" class="homme1" src="images/contrat2.png" alt="">
 
         </div>
 
-
-
-
-
     </div>
+
+    <br><br><br>
+    <div class="brochure_part">
+        <p class="brochure_titre"> Cliquez-ici pour obtenir la fameuse brochure complètement gratuite.</p>
+        <a class="btn btn-lg btn-secondary brochure_bouton" target="_blank" href="documents/ROMAINBERNAZ.pdf">CADEAU</a>
+    </div>
+
+
     <br><br><br><br><br><br><br><br>
     <h2 class="pourquoi">Les avis utilisateurs</h2>
 
     <br><br><br>
-    <div class="row">
+    <div class="row prix">
 
 
-        <div class="col-3 card">
-
-            <div class="col-11 couleur">
-                <img class="carte" src="images/harold.jpg" alt="carte1">
-                <p class="nom">Romain B.</p>
-                <div class="row stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                        class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                <p class="texte_avis">Depuis que j'ai acheté l'alternant ma vie a completement changé.
-                    J'en arrive à me demander comment j'ai pu passer tant d'années sans.
-                </p>
+        <div class="col-10 col-md-3">
+            <div class="card">
+                <img src="images/harold.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4 class="nom"><b>Andras A.</b></h4>
+                    <div class="row stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="texte_avis">Depuis que j'ai acheté l'alternant ma vie a completement changé.
+                        J'en arrive à me demander comment j'ai pu passer tant d'années sans.
+                    </p>
+                </div>
             </div>
+            <br class="d-block"><br class="d-block"><br class="d-block">
+        </div>
+
+        
+
+        <div class="col-10 col-md-3">
+            <div class="card">
+                <img src="images/curie.jpg" alt="Avatar" style="width:100%;" ;>
+                <div class="container">
+                    <h4 class="nom"><b>Marie C.</b></h4>
+                    <div class="row stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="texte_avis">J'ai été dans l'obligation de me procurer un alternant pour m'aider dans mes
+                        recherches.
+                        Le résultat est sans appel, deux prix nobel.
+                    </p>
+                </div>
+            </div>
+            <br class="d-block"><br class="d-block"><br class="d-block">
         </div>
 
 
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
+        <div class="col-10 col-md-3">
+            <div class="card">
+                <img src="images/socrate.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4 class="nom"><b>Socrate</b></h4>
+                    <div class="row stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="texte_avis">J'ai acheté mon alternant il y a 2425 ans maintenant et il est encore en très
+                        bon état. Je recommande ce produit.
+                    </p>
+                </div>
+            </div>
+            <br class="d-block"><br class="d-block"><br class="d-block">
+        </div>
 
+
+        <div class="col-10 col-md-3">
+            <div class="card">
+                <img src="images/jobs.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4 class="nom"><b>Steve J.</b></h4>
+                    <div class="row stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="texte_avis">Mon père m'a offert un alternant pendant mon adolescence. Il m'a été d'une
+                        aide précieuse pour la
+                        suite de ma carrière et m'a grandement aidé à prendre les bonnes décisions dans ma vie.
+                        L'Iphone, c'est lui.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br class="d-block"><br class="d-block"><br class="d-block">
     </div>
     <br><br><br>
-    <p class="asterisque">*Contrat d'une année dont plus ou moins 10 mois en entreprise.</p>
 
+    <footer>
+
+
+        <div class="row">
+
+            <div class="col-8">
+                <p class="copy">Romain BERNAZ 2020 &copy</p>
+            </div>
+
+            <div class="col-4 logo">
+                <a href="https://www.linkedin.com/in/romain-bernaz-17566a105/"><i
+                        class="fab fa-5x fa-linkedin"></i></i></a>
+
+                <a href="https://twitter.com/romain_bernaz"><i class="fab fa-5x fa-twitter-square"></i></a>
+
+                <a href="https://github.com/RomainBERNAZ"><i class="fab fa-5x fa-github-square"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: "true"
+        });
+    </script>
+
+</body>
 
 </html>
