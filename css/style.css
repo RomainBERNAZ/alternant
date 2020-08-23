@@ -1,9 +1,8 @@
-
-
 @font-face {
-  src: url(fonts/OldLondon.ttf);
-  font-family: cd;
+  src: url(../fonts/Buckwheat\ TC\ Sans\ Painted.otf);
+  font-family: Buckwheat;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -19,7 +18,7 @@ body {
   .exemplaire {
     text-align: center;
     display: table;
-    font-family: sketch;
+    font-family: Buckwheat;
     color: whitesmoke;
     font-size: 3vw;
     border: 4px solid whitesmoke;
@@ -33,7 +32,7 @@ body {
 /*Affichage de l'asterisque en bas de page*/
 
 .asterisque {
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   font-size: 0.8rem;
 }
@@ -53,7 +52,7 @@ body {
 .ancien_prix {
   background-color: #355070;
   font-size: 30px;
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   display: inline;
   padding: 7%;
@@ -62,7 +61,7 @@ body {
 .nouveau_prix {
   background-color: #355070;
   font-size: 30px;
-  font-family: sketch;
+  font-family: Buckwheat;
   color: white;
   display: inline-block;
   padding: 4%;
@@ -77,14 +76,14 @@ body {
 
 .motivation {
   color: whitesmoke;
-  font-family: sketch;
+  font-family: Buckwheat;
   font-size: 3.5vw;
   animation: opacity 5s;
 
 }
 
 .apprentissage {
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   font-size: 3.5vw;
   animation: opacity 5s;
@@ -92,7 +91,7 @@ body {
 }
 
 .avenir {
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   font-size: 3.5vw;
   animation: opacity 5s;
@@ -104,7 +103,7 @@ body {
 .mot {
   font-size: 0.9rem;
   color: whitesmoke;
-  font-family: sketch;
+  font-family: Buckwheat;
 }
 
 .photo {
@@ -117,7 +116,7 @@ body {
 }
 
 .pourquoi {
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   text-align: center;
   font-size: 9vw;
@@ -133,14 +132,14 @@ body {
 
 #titre_principal {
   margin-top: 2rem;
-  font-family: sketch;
+  font-family: Buckwheat;
   font-size: 13vw;
   color: whitesmoke;
 }
 
 .titre_secondaire {
   text-align: start;
-  font-family: sketch;
+  font-family: Buckwheat;
   margin-left: 100px;
   font-size: 70px;
 }
@@ -154,7 +153,7 @@ body {
 .exemplaire {
   text-align: center;
   display: table;
-  font-family: sketch;
+  font-family: Buckwheat;
   color: #355070;
   font-size: 3vw;
   border: 4px solid #355070;
@@ -163,10 +162,10 @@ body {
 
 .temps_restant {
   text-align: center;
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   text-decoration: underline;
-  font-size: 5vw;
+  font-size: 3vw;
 }
 
 
@@ -175,10 +174,16 @@ body {
 }
 
 .texte_lorem {
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
 
 }
+
+.titre_carte{
+display: table-cell;
+vertical-align: middle;
+}
+
 
 .carte {
   height: 15rem;
@@ -234,7 +239,7 @@ body {
 #minutes,
 #secondes {
   font-size: 40px;
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
 }
 
@@ -278,11 +283,13 @@ span {
 
 
 .vertical {
-  margin-top: 1.1vw;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .vertical2 {
-  margin-top: 1.3vw;
+  display: table-cell;
+  vertical-align: middle;
   font-size: 2.2vw;
 }
 
@@ -296,7 +303,7 @@ span {
 
 .flip-card {
   background-color: transparent;
-  font-family: sketch;
+  font-family: Buckwheat;
   color: whitesmoke;
   width: 200px;
   height: 80px;
@@ -332,12 +339,14 @@ span {
 .flip-card-front {
   background-color: #355070;
   color: whitesmoke;
+  display: table;
 }
 
 /* Style the back side */
 .flip-card-back {
   background-color: #355070;
   color: white;
+  display: table;
   transform: rotateY(180deg);
 
 }
@@ -359,7 +368,7 @@ img {
 
 
 .texte_avis {
-  font-family: sketch;
+  font-family: Buckwheat;
   color: #495057;
 }
 
@@ -370,7 +379,7 @@ img {
 /* Partie sur la brochure*/
 
 .brochure_titre {
-  font-family: sketch;
+  font-family: Buckwheat;
   font-size: 2vw;
   color: whitesmoke;
 }
@@ -408,7 +417,7 @@ img {
 
 .copy{
   color: whitesmoke;
-  font-family: sketch;
+  font-family: Buckwheat;
 }
 
 .logo {

@@ -177,6 +177,7 @@ body {
 
 .photo {
   border: whitesmoke solid 10px;
+  width:100%;
 }
 
 .photo_bloc {
