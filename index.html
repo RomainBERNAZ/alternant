@@ -8,35 +8,36 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 500px)" href="css/mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 501px)" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>L'Alternant</title>
 </head>
 
 <body class="container-fluid">
-    <div class="row d-flex justify-content-center">
+    <div class="row titre">
         <h1 id="titre_principal">L'Alternant</h1>
         <script src="script.js"></script>
     </div>
     <br><br>
     <div class="row">
 
-        <div class="col-md-6  photo_bloc">
-            <img class="photo" src="images/principale.png" alt="">
+        <div class="col-md-6 photo_bloc">
+            <img class="photo" src="images/principale.png" alt="" width="100%">
         </div>
         <div class="col-12 col-md-6 colonne_droite">
             <div class="test">
-
+                <br class="break">
                 <h3 class="temps_restant">TARIF</h3><br>
                 <div class="row prix">
 
-                    <div class="flip-card col-5">
+                    <div class="flip-card col-6">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <h2>ANCIEN <br>PRIX</h2>
+                                <h2 class="titre_carte">ANCIEN PRIX</h2>
                             </div>
                             <div class="flip-card-back">
                                 <p class="vertical2">9999€</p>
@@ -44,13 +45,15 @@
                         </div>
                     </div>
 
-                    <div class="flip-card col-5">
+                    <div class="flip-card col-6">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <h2>NOUVEAU PRIX</h2>
+                                <h2 class="titre_carte">NOUVEAU PRIX</h2>
                             </div>
                             <div class="flip-card-back">
                                 <p class="vertical">Un contrat de professionnalisation</p>
+                                <p class="vertical3">Un contrat pro.</p>
+
                             </div>
                         </div>
                     </div>
@@ -106,7 +109,7 @@
     <br><br><br><br>
 
     <div class="row qualite">
-        <div class="col-md-6 ">
+        <div class="col-12 col-md-6 ">
 
 
             <h3 class="motivation">
@@ -125,7 +128,7 @@
             </p>
         </div>
 
-        <div class="col-6 photo_bloc">
+        <div class="col-12 photo_bloc">
 
             <img data-aos="fade-right" id="texte2" class="homme1" src="images/ordinateur.png" alt="">
 
@@ -296,17 +299,17 @@
 
         <div class="row">
 
-            <div class="col-8">
-                <p class="copy">Romain BERNAZ 2020 &copy</p>
+            <div class="col-6">
+                <p class="copy">Romain BERNAZ &copy 2020 </p>
             </div>
 
-            <div class="col-4 logo">
+            <div class="col-6 logo">
                 <a href="https://www.linkedin.com/in/romain-bernaz-17566a105/"><i
-                        class="fab fa-5x fa-linkedin"></i></i></a>
+                        class="fab fa-3x fa-linkedin"></i></i></a>
 
-                <a href="https://twitter.com/romain_bernaz"><i class="fab fa-5x fa-twitter-square"></i></a>
+                <a href="https://twitter.com/romain_bernaz"><i class="fab fa-3x fa-twitter-square"></i></a>
 
-                <a href="https://github.com/RomainBERNAZ"><i class="fab fa-5x fa-github-square"></i></a>
+                <a href="https://github.com/RomainBERNAZ"><i class="fab fa-3x fa-github-square"></i></a>
             </div>
         </div>
 
