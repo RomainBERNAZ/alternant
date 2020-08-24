@@ -70,4 +70,10 @@ var x = setInterval(function () {
 
 
 
-// Affichage des textes avec le scroll 
+// Test du retournement de carte avec un évenement 
+
+function retournement() {
+
+  document.getElementById("retournement").className = "flip-card-inner";
+
+}
