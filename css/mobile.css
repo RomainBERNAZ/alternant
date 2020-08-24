@@ -16,19 +16,11 @@ body {
   background-color: #355070;
 }
 
-@media all and (max-width: 375px) {
 
-  .exemplaire {
-    text-align: center;
-    display: table;
-    font-family: sketch;
-    color: whitesmoke;
-    font-size: 3vw;
-    border: 4px solid whitesmoke;
-  }
+.avis {
+padding-bottom: 10vw;
+
 }
-
-
 
 
 
@@ -71,7 +63,7 @@ body {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.flip-card:active .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -136,6 +128,7 @@ body {
 }
 
 .prix {
+  padding-top: 2vw;
   justify-content: center;
 }
 
@@ -147,6 +140,7 @@ body {
   font-family: Buckwheat;
   font-size: 8vw;
   animation: opacity 5s;
+  padding-bottom: 3vw;
 
 }
 
@@ -155,6 +149,8 @@ body {
   color: whitesmoke;
   font-size: 8vw;
   animation: opacity 5s;
+  padding-top: 15vw;
+  padding-bottom: 3vw;
 
 }
 
@@ -163,6 +159,8 @@ body {
   color: whitesmoke;
   font-size: 8vw;
   animation: opacity 5s;
+  padding-top: 15vw;
+  padding-bottom: 3vw;
 
 }
 
@@ -189,16 +187,29 @@ body {
   color: whitesmoke;
   text-align: center;
   font-size: 9vw;
+  padding-top: 50vw;
+  padding-bottom: 20vw;
+}
+
+.titre_avis{
+  font-family: Buckwheat;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 9vw;
+  padding-top: 35vw;
+  padding-bottom: 10vw;
 }
 
 .titre {
   justify-content: center;
+  padding-bottom: 5vw;
+
 }
 
 #titre_principal {
-  margin-top: 2rem;
+  margin-top: 5vw;
   font-family: Buckwheat;
-  font-size: 11vw;
+  font-size: 13vw;
   color: whitesmoke;
 }
 
@@ -224,6 +235,22 @@ body {
   border: 4px solid whitesmoke;
 }
 
+.cadre_exemplaire{
+justify-content: center;
+padding-top: 20vw;
+
+}
+
+.tarif {
+  text-align: center;
+  font-family: Buckwheat;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: 10vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+}
+
 
 .temps_restant {
   text-align: center;
@@ -231,6 +258,8 @@ body {
   color: whitesmoke;
   text-decoration: underline;
   font-size: 10vw;
+  padding-bottom: 7vw;
+  padding-top: 20vw;
 }
 
 
@@ -278,6 +307,7 @@ body {
 }
 
 .nom {
+  font-size: 4vw;
   margin-bottom: 0.2rem;
   font-weight: bold;
 }
@@ -354,6 +384,7 @@ img {
 .texte_avis {
   font-family: Buckwheat;
   color: #495057;
+  font-size: 3vw;
 }
 
 
@@ -366,11 +397,13 @@ img {
   font-family: Buckwheat;
   font-size: 6vw;
   color: whitesmoke;
+  padding-top: 15vw;
 }
 
 .brochure_part {
   justify-content: center;
   text-align: center;
+  padding-bottom: 10vw;
 }
 
 .brochure_lien {
