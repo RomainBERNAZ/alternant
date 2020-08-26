@@ -8,6 +8,8 @@
   font-family: cd;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,10 +18,14 @@ body {
   background-color: #355070;
 }
 
+/*Empeche la barre de scroll horizontale de pop au démarage. Bug connu de la librairie*/
+.scroll{
+overflow-x: hidden;
 
+
+}
 .avis {
 padding-bottom: 10vw;
-
 }
 
 

@@ -74,6 +74,8 @@ var x = setInterval(function () {
 
 function retournement() {
 
-  document.getElementById("retournement").className = "flip-card-inner";
+document.getElementById("retournement").className = "flip-card-inner";
+};
 
-}
+
+
