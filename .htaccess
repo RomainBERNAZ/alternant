@@ -1,0 +1,18 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+
+ExpiresActive On
+ExpiresByType image/jpg "access 4 hours"
+ExpiresByType image/jpeg "access 4 hours"
+ExpiresByType image/gif "access 4 hours"
+ExpiresByType image/png "access 4 hours"
+ExpiresByType text/css "access 4 hours"
+ExpiresByType application/pdf "access 4 hours"
+ExpiresByType application/javascript "access 4 hours"
+ExpiresByType application/x-javascript "access 4 hours"
+ExpiresByType application/x-shockwave-flash "access 4 hours"
+ExpiresByType image/x-icon "access 4 hours"
+ExpiresDefault "access 2 days"
+
+</IfModule>
+## EXPIRES CACHING ##
