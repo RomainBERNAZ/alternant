@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
 // Fonction qui affiche le compteur
 
-var countDownDate = new Date("Sep 30, 2020 23:59:59").getTime();
+var countDownDate = new Date("Oct 30, 2020 23:59:59").getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var distance = countDownDate - now;
